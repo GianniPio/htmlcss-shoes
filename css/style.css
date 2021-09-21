@@ -1,5 +1,32 @@
+/* tag generali */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19, 19, 19);
+}
+
+/* tag della pagina */
+
+.container{
+    height: 100vh;
+    width: 80vw;
+    margin-left: 10%;
+
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
 }
