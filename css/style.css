@@ -11,7 +11,6 @@
 
 .container{
     height: 100vh;
-    width: auto;
     position: relative;
 }
 
@@ -32,17 +31,14 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    width: auto;
-    height: auto;
 }
 
 h1{
     position: absolute;
     width:35%;
     height: auto;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50% , -50%);
+    top: 75%;
+    left: 30%;
     font-size: 50px;
     text-align: center;
 }
@@ -63,11 +59,9 @@ nav{
     z-index: 999;
     padding: 30px;
     position: fixed;
-    text-decoration: none;
 }
 
 li{
-    list-style-type: none;
     display: inline;
     padding: 10px 15px; 
     background-color: #fff;
@@ -79,4 +73,5 @@ li{
 
 a{
     text-decoration: none;
+    color: black;
 }
